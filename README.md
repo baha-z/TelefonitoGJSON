@@ -8,6 +8,22 @@ Los comentarios tienen descripciones que por lo general son vagas, o que cuentan
 
 Por lo pronto, sólo dejo constancia (a mi parecer) de los mejores comentarios, siempre con el mejor espíritu, y la esperanza de que algún día cada juego descrito podamos jugarlo... de una manera u otra. 
 
-# #ElTelefonitoGameJam-Generator
+# ElTelefonitoGJSON
 
-**ElTelefonitoGameJam-Generator** funciona como un historico de post originales de ElTelefonitoGameJam asi como tambien un generador en base a estos post de nuevas y "originales" publicaciones de forma aleatoria, es creado unicamente con propositos recreativos sin embargo creo que podria resultar bastante interesante como herramienta para generar ideas para juegos.
+**ElTelefonitoGJSON** es simplemente un archivo JSON que contiene toda la información de posts viejos del Telefonito Game Jam, disponibles para usar para cualquier proyecto y abierto para cualquiera que desee contribuir en su crecimiento y desarrollo. 
+
+~~~
+{
+    "title": "#ElTelefonitoGameJam",
+    "posts": [
+        {
+            "post": "Es un juego de 6 laberintos con bolas que tienen obstáculos para llegar",
+            "date": "04-12-2018"
+        },
+        .
+        .
+        .
+    ]
+}
+~~~
+
